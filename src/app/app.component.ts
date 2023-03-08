@@ -11,6 +11,8 @@ export class AppComponent {
   title = 'Movie Finder';
   movieData:IOMDBResponse | undefined;
   errorMessge:any;
+  name = 'Joe Walsh';
+  studentNo = 'S00222915';
 
   constructor(private _omdbService:OmdbApiService){ }
 
